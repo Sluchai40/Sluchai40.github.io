@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./assets/images/bcg-and-door.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body header {
+  width: 60%;
+  margin: 2% 20%;
+  color: rgb(128, 128, 128);
+  text-align: center;
+  border: 15px outset #371c00;
+  -webkit-box-shadow: 0px 0px 50px 20px #8a4500 inset;
+  -moz-box-shadow: 0px 0px 50px 20px #8a4500 inset;
+  box-shadow: 0px 0px 40px 20px #8a4500 inset;
+}
+
+body header h1 {
+  font-size: 50px;
+}
+
+body header h2 {
+  font-size: 30px;
+}
